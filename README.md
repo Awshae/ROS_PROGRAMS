@@ -82,23 +82,24 @@ ros2 run exam_pkg hi_node
 # Question 3
 # Run Exam Publisher 
 ros2 run exam_pkg exam_publisher
+# window 2
 ros2 topic list 
 ros2 topic echo /exam_publisher
 
 # Question 4
 # Run Exam Subscriber 
 ros2 run exam_pkg exam_publisher
-# window 1
-ros2 topic echo /exam_publisher
 # window 2
+ros2 topic echo /exam_publisher
+# window 3
 ros2 run exam_pkg exam_subscriber
 
 # Question 5
 # Run Multi Publisher 
 ros2 run exam_pkg multi_pub
-# window 1
-ros2 topic echo /exam_text
 # window 2
+ros2 topic echo /exam_text
+# window 3
 ros2 run exam_pkg exam_number
 ```
 
