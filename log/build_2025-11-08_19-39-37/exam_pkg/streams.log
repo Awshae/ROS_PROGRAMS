@@ -1,0 +1,24 @@
+[4.341s] Invoking command in '/home/awshae/exam_ws/src/exam_pkg': PYTHONPATH=/home/awshae/exam_ws/build/exam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awshae/exam_ws/install/exam_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/exam_pkg build --build-base /home/awshae/exam_ws/build/exam_pkg/build install --record /home/awshae/exam_ws/build/exam_pkg/install.log --single-version-externally-managed install_data
+[6.083s] running egg_info
+[6.087s] writing ../../build/exam_pkg/exam_pkg.egg-info/PKG-INFO
+[6.092s] writing dependency_links to ../../build/exam_pkg/exam_pkg.egg-info/dependency_links.txt
+[6.095s] writing entry points to ../../build/exam_pkg/exam_pkg.egg-info/entry_points.txt
+[6.096s] writing requirements to ../../build/exam_pkg/exam_pkg.egg-info/requires.txt
+[6.096s] writing top-level names to ../../build/exam_pkg/exam_pkg.egg-info/top_level.txt
+[6.102s] reading manifest file '../../build/exam_pkg/exam_pkg.egg-info/SOURCES.txt'
+[6.110s] writing manifest file '../../build/exam_pkg/exam_pkg.egg-info/SOURCES.txt'
+[6.120s] running build
+[6.124s] running build_py
+[6.124s] copying exam_pkg/tesing_publisher.py -> /home/awshae/exam_ws/build/exam_pkg/build/lib/exam_pkg
+[6.125s] running install
+[6.135s] running install_lib
+[6.136s] copying /home/awshae/exam_ws/build/exam_pkg/build/lib/exam_pkg/tesing_publisher.py -> /home/awshae/exam_ws/install/exam_pkg/lib/python3.10/site-packages/exam_pkg
+[6.136s] byte-compiling /home/awshae/exam_ws/install/exam_pkg/lib/python3.10/site-packages/exam_pkg/tesing_publisher.py to tesing_publisher.cpython-310.pyc
+[6.137s] running install_data
+[6.148s] running install_egg_info
+[6.148s] removing '/home/awshae/exam_ws/install/exam_pkg/lib/python3.10/site-packages/exam_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[6.149s] Copying ../../build/exam_pkg/exam_pkg.egg-info to /home/awshae/exam_ws/install/exam_pkg/lib/python3.10/site-packages/exam_pkg-0.0.0-py3.10.egg-info
+[6.159s] running install_scripts
+[6.281s] Installing exam_publisher = exam_pkg.exam_publisher:maintesing_publisher script to /home/awshae/exam_ws/install/exam_pkg/lib/exam_pkg
+[6.284s] writing list of installed files to '/home/awshae/exam_ws/build/exam_pkg/install.log'
+[6.407s] Invoked command in '/home/awshae/exam_ws/src/exam_pkg' returned '0': PYTHONPATH=/home/awshae/exam_ws/build/exam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/awshae/exam_ws/install/exam_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/exam_pkg build --build-base /home/awshae/exam_ws/build/exam_pkg/build install --record /home/awshae/exam_ws/build/exam_pkg/install.log --single-version-externally-managed install_data
