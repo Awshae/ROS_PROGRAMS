@@ -74,7 +74,7 @@ ros2 run exam_pkg <node_name>
 ### Example Commands
 ```bash
 # Question 1
-# Run OOP Publisher 
+# create a pkg using 'ros2 pkg create exam_pkg --build-type ament_python --dependencies rclpy 
 ros2 run exam_pkg first
 # Open another terminator window
 . install/setup.bash
@@ -99,7 +99,7 @@ ros2 topic echo /exam_publisher
 # window 2
 ros2 run exam_pkg exam_subscriber
 
-# Question 3
+# Question 5
 # Run Multi Publisher 
 ros2 run exam_pkg multi_pub
 # window 1

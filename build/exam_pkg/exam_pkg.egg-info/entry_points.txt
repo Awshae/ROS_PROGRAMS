@@ -1,7 +1,0 @@
-[console_scripts]
-exam_publisher = exam_pkg.exam_publisher:main
-exam_subscriber = exam_pkg.exam_subscriber:main
-first = exam_pkg.first:main
-hi_node = exam_pkg.hi_node:main
-multi_pub = exam_pkg.multi_pub:main
-
