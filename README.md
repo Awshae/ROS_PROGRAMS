@@ -42,7 +42,7 @@ ROS_PARTA/
 
 ### 1. Clone the repository
 ```bash
-git clone <repo_url>
+git clone https://github.com/Awshae/ROS_PROGRAMS.git
 cd ROS_PARTA
 ```
 
