@@ -9,9 +9,6 @@ All programs are implemented in **Python (rclpy)** and tested on **ROS 2 Humble 
 
 ```
 ROS_PARTA/
-├── build/
-├── install/
-├── log/
 ├── src/
 │   └── exam_pkg/
 │       ├── exam_pkg/
@@ -21,9 +18,6 @@ ROS_PARTA/
 │       │   ├── first.py
 │       │   ├── hi_node.py
 │       │   └── multi_pub.py
-│       ├── resource/
-│       │   └── exam_pkg
-│       └── test/
 ├── package.xml
 ├── setup.cfg
 ├── setup.py
