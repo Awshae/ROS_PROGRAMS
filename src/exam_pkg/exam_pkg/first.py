@@ -7,7 +7,8 @@ class MyNode(Node):
     def __init__(self):
         super().__init__("exam_publisher")
         self.publisher_ =self.create_publisher( String,"/oop_status",10)
-        self.timer_ = self.create_timer(0.5,self.publish_exam)
+        #frequency is 0.5 Hz, to update seconds; seconds = 1/0.5 = 2
+        self.timer_ = self.create_timer(2,self.publish_exam)
         self.get_logger().info("Exam publisher has started")
     
     def publish_exam(self):
